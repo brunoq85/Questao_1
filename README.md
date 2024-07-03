@@ -1,59 +1,81 @@
 # Questão 1
 
-Uma instituição financeira solicita que para cadastrar uma conta bancária, é necessário informar:
-    • o número da conta, 
-    • o nome do titular da conta, 
-    • e o valor de depósito inicial que o titular depositou ao abrir a conta.
+<p>Uma instituição financeira solicita que para cadastrar uma conta bancária, é necessário informar:</p>
+<ol>
+    <li>o número da conta,</li>
+    <li>o nome do titular da conta,</li>
+    <li>e o valor de depósito inicial que o titular depositou ao abrir a conta.</li>
+</ol>
 
-O valor de depósito inicial, é opcional, ou seja: 
-    • se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero.
+<p>O valor de depósito inicial, é opcional, ou seja:</p>
+<ul>
+    <li>se o titular não tiver dinheiro a depositar no momento de abrir sua conta, o depósito inicial não será feito e o saldo inicial da conta será, naturalmente, zero.</li>
+</ul>
+     
 
-Importante: Após a conta ser aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome quando contrai matrimônio por exemplo).
+<p><em>Importante:</em> Após a conta ser aberta, o número da conta nunca poderá ser alterado. Já o nome do titular pode ser alterado (pois uma pessoa pode mudar de nome quando contrai matrimônio por exemplo).</p>
 
-O saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. 
+<p>O saldo da conta não pode ser alterado livremente. É preciso haver um mecanismo para proteger isso. </p>
 
-O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. 
+<p>O saldo só aumenta por meio de depósitos, e só diminui por meio de saques. </p>
 
-Para cada saque realizado, a instituição cobra uma taxa de $ 3.50. 
+<p>Para cada saque realizado, a instituição cobra uma taxa de $ 3.50. </p>
 
-Observação: a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa.
+<p><strong>Observação:</strong> a conta pode ficar com saldo negativo se o saldo não for suficiente para realizar o saque e/ou pagar a taxa.</p>
 
-Disponibilizamos um programa que solicita os dados de cadastro da conta, dando opção para que seja ou não
-informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre
-mostrando os dados da conta após cada operação.
+<p>Disponibilizamos um programa que solicita os dados de cadastro da conta, dando opção para que seja ou não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque, sempre 
+mostrando os dados da conta após cada operação.</p>
 
-Você deve implementar a classe “ContaBancaria” para que o programa funcione conforme dois cenários de teste abaixo:
+<p>Você deve implementar a classe “ContaBancaria” para que o programa funcione conforme dois cenários de teste abaixo:</p>
 
-Exemplo 1:
+<p>Exemplo 1:</p>
 
-Entre o número da conta: 5447
-Entre o titular da conta: Milton Gonçalves
-Haverá depósito inicial (s/n)? s
-Entre o valor de depósito inicial: 350.00
+<p>Entre o número da conta: <strong>5447</strong></p>
+<p>Entre o titular da conta: <strong>Milton Gonçalves</strong></p>
+<p>Haverá depósito inicial (s/n)? <strong>s</strong></p>
+<p>Entre o valor de depósito inicial: <strong>350.00</strong></p>
 
-Dados da conta:
-Conta 5447, Titular: Milton Gonçalves, Saldo: $ 350.00
+</br>
 
-Entre um valor para depósito: 200
-Dados da conta atualizados:
-Conta 5447, Titular: Milton Gonçalves, Saldo: $ 550.00
+<p>Dados da conta:</p>
+<p><em><strong>Conta 5447, Titular: Milton Gonçalves, Saldo: $ 350.00</strong></em></p>
 
-Entre um valor para saque: 199
-Dados da conta atualizados:
-Conta 5447, Titular: Milton Gonçalves, Saldo: $ 347.50
+</br>
 
-Exemplo 2:
-Entre o número da conta: 5139
-Entre o titular da conta: Elza Soares
-Haverá depósito inicial (s/n)? n
+<p>Entre um valor para depósito: <strong>200</strong></p>
+<p>Dados da conta atualizados:</p>
+<p><em><strong>Conta 5447, Titular: Milton Gonçalves, Saldo: $ 550.00</strong></em></p>
 
-Dados da conta:
-Conta 5139, Titular: Elza Soares, Saldo: $ 0.00
+</br>
 
-Entre um valor para depósito: 300.00
-Dados da conta atualizados:
-Conta 5139, Titular: Elza Soares, Saldo: $ 300.00
+<p>Entre um valor para saque: <strong>199</strong></p>
+<p>Dados da conta atualizados:</p>
+<p><em><strong>Conta 5447, Titular: Milton Gonçalves, Saldo: $ 347.50</strong></em></p>
 
-Entre um valor para saque: 298.00
-Dados da conta atualizados:
-Conta 5139, Titular: Elza Soares, Saldo: $ -1.50
+</br>
+</br>
+
+<p>Exemplo 2:</p>
+
+</br>
+
+<p>Entre o número da conta: <strong>5139</strong></p>
+<p>Entre o titular da conta: <strong>Elza Soares</strong></p>
+<p>Haverá depósito inicial (s/n)? <strong>n</strong></p>
+
+</br>
+
+<p>Dados da conta:</p>
+<p><em><strong>Conta 5139, Titular: Elza Soares, Saldo: $ 0.00</strong></em></p>
+
+</br>
+
+<p>Entre um valor para depósito: <strong>300.00</strong></p>
+<p>Dados da conta atualizados:</p>
+<p><em><strong>Conta 5139, Titular: Elza Soares, Saldo: $ 300.00</strong></em></p>
+
+</br>
+
+<p>Entre um valor para saque: <strong>298.00</strong><p>
+<p>Dados da conta atualizados:<p>
+<p><em><strong>Conta 5139, Titular: Elza Soares, Saldo: $ -1.50</strong></em><p>
