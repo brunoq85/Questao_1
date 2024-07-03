@@ -23,5 +23,10 @@ namespace Questao_1
         {
             Saldo -= (quantia + 3.50);
         }
+
+        public override string ToString()
+        {
+            return @$"Conta: {NumeroConta}, Titular: {NomeTitular}, Saldo: {Saldo:F2}";
+        }
     }
 }
