@@ -57,8 +57,6 @@ mostrando os dados da conta após cada operação.</p>
 
 <p>Exemplo 2:</p>
 
-</br>
-
 <p>Entre o número da conta: <strong>5139</strong></p>
 <p>Entre o titular da conta: <strong>Elza Soares</strong></p>
 <p>Haverá depósito inicial (s/n)? <strong>n</strong></p>
